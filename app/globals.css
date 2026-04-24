@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #2563EB;
+  --primary-light: #3B82F6;
+  --primary-dark: #1D4ED8;
+  --primary-bg: #EFF6FF;
+  --background: #F4F6FA;
+  --surface: #FFFFFF;
+  --neutral-800: #1F2937;
+  --neutral-500: #6B7280;
+  --neutral-200: #E5E7EB;
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--neutral-800);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+html {
+  scroll-padding-top: 72px;
+}
